@@ -1,0 +1,136 @@
+body {
+color: #fff;
+font-family: Helvetica;
+/*background: url(../images/Porch_Neat_Shadow.jpg);*/
+/*background-size: cover;*/
+}
+
+.total-header {
+padding-top: 10px;
+padding-bottom: 20px;	
+}
+
+.left-header {
+/*padding-top: 10px;*/
+/*padding-bottom: 10px;	*/
+float: left;
+}
+
+.right-header {
+/*padding-top: 10px;*/
+/*padding-bottom: 10px;	*/
+padding-right: 60px;
+float: right;
+list-style-type: none;
+}
+
+.right-header ul li {
+	display: inline;
+	padding: 10px;
+}
+
+#logo {
+text-transform: uppercase;
+color: orange;
+font-size: 28px;
+font-weight: 800;
+padding-left: 40px;
+}
+
+.nav a{
+/*text-tran
+sform: uppercase;*/
+color: gray;
+text-decoration: none;
+font-size: 20px;
+font-weight: 700;
+/*padding-left: 1400px;*/
+/*padding-top: 0px;*/
+/*padding-bottom: 10px;*/
+}
+
+
+.slogan {
+font-size: 45px;
+font-weight: 800;
+/*font-style: italic;*/
+color: rgba(0, 0, 0, .75);
+}
+
+h1 {
+font-size: 45px;
+font-weight: 800;
+color: rgba(0, 0, 0, .75);
+}
+
+h2 {
+font-size: 32px;
+font-weight: 800;
+color: rgba(0, 0, 0, .75);
+}
+
+#services-header {
+text-align: justify;
+font-size: 36px;
+: 200px;
+padding-left: 160px;
+padding-right: 300px;
+padding-bottom: 160px;
+padding-top: 40px;
+color: rgba(0, 0, 0, 1);
+line-height: 1.5;
+/*color: rgba(255, 255, 255, 1);*/
+/*background-image: url("../images/Man_At_Work.jpg");*/
+/*background-size: 100%;*/
+}
+
+#industries-header {
+text-align: justify;
+font-size: 36px;
+padding-left: 850px;
+padding-right: 300px;
+padding-bottom: 180px;
+color: rgba(0, 0, 0, 1);
+line-height: 1.5;
+}
+
+#aboutus-header {
+text-align: justify;
+font-size: 36px;
+padding-left: 200px;
+padding-right: 300px;
+padding-bottom: 180px;
+color: rgba(0, 0, 0, 1);
+line-height: 1.5;
+}
+
+a {
+color: orange
+}
+
+.total-footer {
+padding-top: 20px;
+padding-bottom: 20px;	
+}
+
+.footer-left {
+float: left;
+padding-left: 160px;
+/*padding-bottom: 20px;*/
+font-size: 20px;
+}
+
+.footer-left a {
+color: orange;
+text-decoration: none;	
+}
+ 
+.footer-right {
+/*text-transform: uppercase;*/
+color: black;
+font-size: 20px;
+font-weight: 500;
+float: right;
+/*padding-bottom: 20px;*/
+padding-right: 60px;
+}
