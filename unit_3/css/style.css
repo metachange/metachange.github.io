@@ -1,32 +1,50 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-color: #fff;
-font-family: Helvetica;
-/*background: url(../images/Porch_Neat_Shadow.jpg);*/
-/*background-size: cover;*/
+	color: #fff;
+	font-family: Helvetica, arial, sans-serif;
+	font-size:20px;
+}
+header {
+	max-width:60em;
+	margin:auto;
+}
+nav {
+	float:right;
+}
+nav a{
+	/*text-tran
+	sform: uppercase;*/
+	color: gray;
+	text-decoration: none;
+	font-weight: 700;
+	/*padding-left: 1400px;*/
+	/*padding-top: 0px;*/
+	/*padding-bottom: 10px;*/
+}
+h1 {
+	font-size: 3em;
+	font-weight: 800;
+	color: rgba(0, 0, 0, .75);
+	line-height:1;
+	margin-bottom:.5em;
 }
 
+h2 {
+	font-size:1.5em;
+	font-weight: 800;
+	color: rgba(0, 0, 0, .75);
+}
+a {
+	color: orange
+}
 .total-header {
-padding-top: 10px;
-padding-bottom: 20px;	
+	padding:1em 0;	
 }
 
 .left-header {
-/*padding-top: 10px;*/
-/*padding-bottom: 10px;	*/
-float: left;
-}
-
-.right-header {
-/*padding-top: 10px;*/
-/*padding-bottom: 10px;	*/
-padding-right: 60px;
-float: right;
-list-style-type: none;
-}
-
-.right-header ul li {
-	display: inline;
-	padding: 10px;
+	/*padding-top: 10px;*/
+	/*padding-bottom: 10px;	*/
+	float: left;
 }
 
 #logo {
@@ -34,49 +52,23 @@ text-transform: uppercase;
 color: orange;
 font-size: 28px;
 font-weight: 800;
-padding-left: 40px;
+float:left;
 }
 
-.nav a{
-/*text-tran
-sform: uppercase;*/
-color: gray;
-text-decoration: none;
-font-size: 20px;
-font-weight: 700;
-/*padding-left: 1400px;*/
-/*padding-top: 0px;*/
-/*padding-bottom: 10px;*/
-}
+
 
 
 .slogan {
-font-size: 45px;
+font-size: 1.5em;
 font-weight: 800;
 /*font-style: italic;*/
 color: rgba(0, 0, 0, .75);
 }
 
-h1 {
-font-size: 45px;
-font-weight: 800;
-color: rgba(0, 0, 0, .75);
-}
 
-h2 {
-font-size: 32px;
-font-weight: 800;
-color: rgba(0, 0, 0, .75);
-}
 
 #services-header {
-text-align: justify;
-font-size: 36px;
-: 200px;
-padding-left: 160px;
-padding-right: 300px;
-padding-bottom: 160px;
-padding-top: 40px;
+padding:5em 0;
 color: rgba(0, 0, 0, 1);
 line-height: 1.5;
 /*color: rgba(255, 255, 255, 1);*/
@@ -104,9 +96,7 @@ color: rgba(0, 0, 0, 1);
 line-height: 1.5;
 }
 
-a {
-color: orange
-}
+
 
 .total-footer {
 padding-top: 20px;
