@@ -27,7 +27,7 @@ nav {
 	float:right;
 	background-color: #E8C66A;
 	border: 1px black solid;
-	padding: 20px;
+	/*padding: 20px;*/
 }
 nav a{
 	color: gray;
@@ -75,7 +75,7 @@ a {
 	text-decoration: none;
 	font-weight: 600;
 	font-style: Helvetica, sans-serif;
-	padding: 1.5em .5em;
+	padding: .75em .5em;
 	word-spacing: .2em;
 }
 
@@ -89,7 +89,7 @@ a {
 	color: orange;
 	font-size: 1.5em;
 	font-weight: 800;
-	float:left;
+	/*float:left;*/
 	font-family: Helvetica, Arial, sans-serif;
 	letter-spacing: .2em;
 }
@@ -153,22 +153,30 @@ footer {
 }
 
 #footer-left {
-	float: left;
+	/*float: left;*/
 	/*padding-left: 160px;*/
 	font-size: 20px;
-	display: inline;
+	/*display: inline;*/
 }
 
 #footer-left a {
 	color: orange;
-	text-decoration: none;
+	text-decoration: bold;
 }
  
 #footer-right {
 	color: black;
 	font-size: 20px;
 	font-weight: 500;
-	float: right;
+	/*float: right;*/
 	/*padding-right: 60px;*/
+	/*display: inline;*/
+}
+
+address {
+	color: gray;
+	font-style: normal;
+	float: right;
+	padding: 0;
 	display: inline;
 }
