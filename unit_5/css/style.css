@@ -1,6 +1,7 @@
-<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-* { margin:20px; padding:0px; box-sizing:border-box; }
+{ margin: 20px; padding:0px; box-sizing:border-box; }
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+  /*Ask What is this selector doing; it also seems to have an impact on the nav size. */
 
 body {
 	color: #fff;
@@ -15,19 +16,17 @@ body {
 
 header {
 	/*max-width:em;*/
-	/*margin: auto;*/
+	/*margin: auto;* what does this mean?/
 	/*padding: .25em 1em 0 1em;*/
-	list-style: inline;
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-nav {
-	float:right;
+nav {	
 	background-color: #E8C66A;
 	border: 1px black solid;
-	/*padding: 20px;*/
+	padding: 20px;
 }
 nav a{
 	color: gray;
@@ -63,33 +62,23 @@ a {
 	color: orange
 }
 
-
-.left-header {
-	float: left;
-}
-
-
 .right-header {
-	text-align: right;
+	float:right;
+	/*text-align: right;* when is this appropriate?/
 	color: gray;
 	text-decoration: none;
 	font-weight: 600;
 	font-style: Helvetica, sans-serif;
-	padding: .75em .5em;
+	/*padding: .75em .5em; what is the em being applied to?*/
+	padding: 12px;
 	word-spacing: .2em;
 }
-
-/*a .right-header {*/
-	/*color: gray;*/
-	/*list-style-type: none;*/
-/*}*/
 
 #logo {
 	text-transform: uppercase;
 	color: orange;
 	font-size: 1.5em;
 	font-weight: 800;
-	/*float:left;*/
 	font-family: Helvetica, Arial, sans-serif;
 	letter-spacing: .2em;
 }
@@ -114,7 +103,7 @@ a {
 	/*padding:5em 5em;*/
 	color: rgba(0, 0, 0, 1);
 	line-height: 1.5;
-	max-width:80em;
+	/*max-width:80em;*/
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
@@ -165,18 +154,21 @@ footer {
 }
  
 #footer-right {
-	color: black;
-	font-size: 20px;
-	font-weight: 500;
+	/*color: black;*/
+	/*font-size: 20px;*/
+	/*font-weight: 500;*/
 	/*float: right;*/
 	/*padding-right: 60px;*/
 	/*display: inline;*/
 }
 
 address {
+	font-size: 20px;
+	font-weight: 500;
 	color: gray;
 	font-style: normal;
-	float: right;
-	padding: 0;
-	display: inline;
+	/*float: right;*/
+	padding: 0px;
+	margin: 0px;
+	/*display: inline;*/*/
 }
