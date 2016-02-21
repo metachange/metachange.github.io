@@ -1,0 +1,185 @@
+/** { margin: 20px; padding:0px; box-sizing:border-box;}*/
+@import url (https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url (https://fonts.googleapis.com/css?family=Lato);
+
+body {
+	color: #fff;
+	font-family: 'Droid Serif', serif;
+	font-size:20px;
+}
+
+.wrapper {
+	width: 1520px;
+	margin: 0 auto;
+}
+
+header {
+	/*max-width:em;*/
+	/*margin: auto;* what does this mean?/
+	/*padding: .25em 1em 0 1em;*/
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {	
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav a{
+	color: gray;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
+	font-weight: 800;
+	color: rgba(0, 0, 0, .75);
+	line-height:1;
+	margin-bottom:.5em;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size:1.5em;
+	font-weight: 800;
+	color: rgba(0, 0, 0, 1);
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size:1em;
+	font-weight: 800;
+	color: rgba(0, 0, 0, 1);
+}
+
+a {
+	color: orange
+}
+
+.right-header {
+	float:right;
+	/*text-align: right;* when is this appropriate?/
+	color: gray;
+	text-decoration: none;
+	font-weight: 600;
+	font-style: Helvetica, sans-serif;
+	/*padding: .75em .5em; what is the em being applied to?*/
+	padding: 12px;
+	word-spacing: .2em;
+}
+
+#logo {
+	text-transform: uppercase;
+	color: orange;
+	font-size: 1.5em;
+	font-weight: 800;
+	font-family: Helvetica, Arial, sans-serif;
+	letter-spacing: .2em;
+}
+
+.slogan {
+	/*font-family: 'Droid Serif', serif;*/
+	font-size: 1.5em;
+	/*font-weight: 800;*/
+	color: rgba(0, 0, 0, .75);
+}
+
+.focal-point {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
+	font-weight: 800;
+	color: rgba(0, 0, 0, .75);
+	line-height:1.4;
+	margin-bottom:.5em;
+}
+
+#services-section {
+	/*padding:5em 5em;*/
+	color: rgba(0, 0, 0, 1);
+	line-height: 1.5;
+	/*max-width:80em;*/
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#industries-section {
+	/*padding:2.5em 20em;*/
+	/*float: right; why is this bad?*/
+	/*max-width:80em;*/
+	line-height: 1.5;
+	font-size: 1.5em;
+	color: rgba(0, 0, 0, 1);
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#aboutus-section {
+	/*padding:2.5em 5em;*/
+	/*max-width:40em;*/
+	/*text-align: justify; why is this bad?*/
+	color: rgba(0, 0, 0, 1);
+	font-size: 1.5em;
+	line-height: 1.5;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#footer-left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	font-size: 20px;
+	float: left;
+	width: 62%;
+}
+
+#footer-left a {
+	color: orange;
+	text-decoration: bold;
+}
+ 
+#footer-right {
+	/*color: black;*/
+	/*font-size: 20px;*/
+	/*font-weight: 500;*/
+	/*float: right;*/
+	/*padding-right: 60px;*/
+	/*display: inline;*/
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+
+address {
+	font-size: 20px;
+	font-weight: 500;
+	color: gray;
+	font-style: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;	
+}
