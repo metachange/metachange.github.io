@@ -30,8 +30,12 @@ nav {
 nav a{
 	color: gray;
 	text-decoration: none;
-	font-weight: 700;
+	/*font-variant: small-caps;*/
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
 	font-family: Helvetica, sans-serif;
+	padding: 5px;
 }
 
 h1 {
@@ -99,10 +103,8 @@ a {
 }
 
 #services-section {
-	/*padding:5em 5em;*/
 	color: rgba(0, 0, 0, 1);
 	line-height: 1.5;
-	/*max-width:80em;*/
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
@@ -110,8 +112,6 @@ a {
 
 #industries-section {
 	/*padding:2.5em 20em;*/
-	/*float: right; why is this bad?*/
-	/*max-width:80em;*/
 	line-height: 1.5;
 	font-size: 1.5em;
 	color: rgba(0, 0, 0, 1);
@@ -130,6 +130,35 @@ a {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+.hero-wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	display: inline-block;
+	width: 100%;
+	/*padding: 20px;*/
+}
+
+.hero-image {
+	float: left;
+	display: block;
+	width: 100%; 
+	margin-bottom: 20px;
+}
+
+.secondary-header {
+	float: right;
+}
+
+.secondary-text {
+	clear:both;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 40px 240px;
+	line-height: 1.3;
+	color: gray;
+	text-align: justify;
 }
 
 footer {
