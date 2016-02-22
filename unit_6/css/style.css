@@ -64,6 +64,11 @@ a {
 	color: orange
 }
 
+p {
+	margin: 16px 0px;
+}
+
+
 .right-header {
 	float:right;
 	/*text-align: right;* when is this appropriate?/
@@ -83,6 +88,10 @@ a {
 	font-weight: 800;
 	font-family: Helvetica, Arial, sans-serif;
 	letter-spacing: .2em;
+}
+
+#logo a{
+	text-decoration: none;
 }
 
 .slogan {
@@ -131,19 +140,22 @@ a {
 	padding: 20px;
 }
 
-.hero-wrapper {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	display: inline-block;
-	width: 100%;
-	/*padding: 20px;*/
+#hero {
+	/*margin-bottom: 20px;*/
+	color: white;
+	margin: 0;
+	padding: 0;
 }
 
-.hero-image {
-	float: left;
+.hero-services{
 	display: block;
-	width: 100%; 
-	margin-bottom: 20px;
+	height: 190px;
+	margin: 0;
+	padding: 0; 
+	background: url("windows.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*height: 400px;*/
 }
 
 .secondary-header {
