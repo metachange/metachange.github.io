@@ -305,17 +305,20 @@ address {
 @media only screen and (max-width: 480px) {
   .right-header {
     /*display: block; */
-    text-align: center ;
+    text-align: left ;
   }
   .focal-point{
   	font-size: 1em;
+  }
+  #services-section {
+  	font-size: .9em;
   }
   .slogan {
   	font-size: .8em;
   }
 
   a {
-  	display: block;
+  	display: inline-block;
   }
 
   h1{
