@@ -13,6 +13,17 @@ body {
 	margin: 0 auto;
 }
 
+.wrapper2 {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #eeeeee;
+}
+
+.wrapper3 {
+	width: 75%;
+	margin: 0 auto;
+}
+
 header {
 	padding: 1em .25em;
 	background-color: #9e9e9e;
@@ -90,7 +101,7 @@ a:hover {
 #services-section {
 	color: rgba(0, 0, 0, 1);
 	line-height: 1.5;
-	padding: 1.5em;
+	padding: 2.5em 1.5em 1.5em 1.5em;
 	background-color: #fafafa;
 }
 
@@ -105,20 +116,34 @@ a:hover {
 	font-family: 'Lato', sans-serif;
 	font-size: 2.5em;
 	font-weight: 800;
-	color: rgba(0, 0, 0, .75);
+	color: rgba(0, 0, 0,.75);
 	line-height: 1.4;
 	padding: 0em;
 }
 
 #buttons1 {
 	margin: 0 0 0 2em;
-	width:100%;
+	/*width:100%;*/
 }
 
-.home-buttons {
-	line-height: 4em;
+.home-buttons1 {
+	line-height: 6em;
 	padding: 0 2em;
-	margin: 0 4em 2em 5em;
+	margin: 0 2.5em 2em 4.5em;
+	border-color: orange;
+	/*color: #e65100;*/
+	border-radius: .25em;
+	border-style: solid;
+	background: none;
+	text-transform: uppercase;
+	outline: none;
+	overflow: hidden;
+}
+
+.home-buttons2 {
+	line-height: 5em;
+	padding: 0 2em;
+	margin: 0 4em 2em 15em;
 	border-color: orange;
 	/*color: #e65100;*/
 	border-radius: .25em;
@@ -133,7 +158,13 @@ button:hover {
      background-color: gray;
  } 
 
-.home-buttons a {
+.home-buttons1 a {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.home-buttons2 a {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 1.5em;
@@ -153,7 +184,6 @@ button:hover {
 	color: rgba(0, 0, 0, 1);
 	font-size: 1.5em;
 	line-height: 1.5;
-	background: url();
 	padding: 1.5em;
 }
 
@@ -164,7 +194,7 @@ button:hover {
 	background: url();
 	/*padding: 1.5em 4.5em;*/
 	padding: 1.5em;
-	background-color: #fafafa;
+	background-color: #eeeeee;
 	text-align: justify;
 }
 
@@ -178,6 +208,7 @@ button:hover {
 	background: url("../images/windows.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding-top: 1em;
 }
 
 .hero-industries{
@@ -186,22 +217,16 @@ button:hover {
 	background: url("../images/windows.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding-top: 1em;
 }
 
 .hero-about{
 	display: block;
 	height: 18em;
-	/*background: url("../images/Porch_Neat_Shadow.jpg");*/
+	background-color: #eeeeee;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-.hero-services{
-	display: block;
-	height: 18em;
-	background: url("../images/windows.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	padding-top: 1em;
 }
 
 .secondary-header {
@@ -215,7 +240,6 @@ button:hover {
 }
 
 .secondary-text {
-	/*background-color: #FFE2B8;*/
 	/*border: 1px black solid;*/
 	padding: 2em 10em 2em 8em;
 	line-height: 1.3;
@@ -239,10 +263,12 @@ button:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	float: left;
+	margin: 1.5em 0;
 }
 
 #location-map img {
-	max-width: 100%;}
+	max-width: 100%;
+}
 
 .contact-text {
 	float: right;
@@ -250,16 +276,18 @@ button:hover {
 	/*background-color: #E55B88;*/
 	padding: 2em 10em;
 	color: gray;
+	text-indent: 1px;
 }
 
 .contact-text h2 {
 	color: orange;
+	text-indent: 0em;
 }
 
 footer {
 	/*background-color: #FFB7CF;*/
 	/*border: 1px black solid;*/
-	padding: 1em;
+	padding: 0 1em;
 	clear: both;
 	font-size: .9em;
 	color: white;
