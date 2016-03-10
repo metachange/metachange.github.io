@@ -19,9 +19,6 @@ body {
 	background-color: #eeeeee;
 }
 
-.wrapper3 {
-	width: 75%;
-	margin: 0 auto;
 }
 
 header {
@@ -357,6 +354,9 @@ address {
 }
 
 @media only screen and (max-width: 480px) {
+  .wrapper {
+  	width: 100%;
+  }
   .right-header {
     /*display: block; */
     text-align: left ;
