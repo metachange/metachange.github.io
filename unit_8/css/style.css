@@ -19,8 +19,6 @@ body {
 	background-color: #eeeeee;
 }
 
-}
-
 header {
 	padding: 1em .25em;
 	background-color: #9e9e9e;
@@ -357,6 +355,13 @@ address {
   .wrapper {
   	width: 100%;
   }
+  .home-buttons1 {
+  	margin: 0 auto;
+  }
+  .home-buttons2 {
+  	margin: 0 auto;
+  }
+
   .right-header {
     /*display: block; */
     text-align: left ;
@@ -384,6 +389,17 @@ address {
   p {
   	font-size: .8em;
   }
+#footer-left {
+  float: none;
+  display: block;
 }
+
+#footer-right {
+  float: none;
+  display: block;
+}
+}
+
+
 
 
