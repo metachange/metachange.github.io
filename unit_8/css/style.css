@@ -200,7 +200,7 @@ button:hover {
 .hero-services{
 	display: block;
 	height: 18em;
-	background: url("../images/windows.jpg");
+	background: url("../images/haiti_pic.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -252,7 +252,7 @@ button:hover {
 }
 
 .location-map {
-	background: url("../images/office_map.png");
+	background: url("../images/office_map.PNG");
 	height: 35em;
 	width: 50%;
 	display: block;
