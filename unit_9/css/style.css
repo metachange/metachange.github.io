@@ -201,6 +201,10 @@ button:hover {
 	text-align: justify;
 }
 
+.hero-services img {
+	max-width: 100%;	
+}
+
 .hero-services{
 	display: block;
 	height: 18em;
@@ -284,9 +288,6 @@ button:hover {
 	text-indent: 0em;
 }
 
-.contact-text h4 {
-	text-indent: .5em;
-}
 footer {
 	/*background-color: #FFB7CF;*/
 	/*border: 1px black solid;*/
