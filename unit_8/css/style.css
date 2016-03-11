@@ -209,7 +209,7 @@ button:hover {
 .hero-industries{
 	display: block;
 	height: 18em;
-	background: url("../images/windows.jpg");
+	background: url("../images/haiti_pic.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -219,6 +219,7 @@ button:hover {
 	display: block;
 	height: 18em;
 	background-color: #eeeeee;
+	background: url("../images/haiti_pic.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -403,7 +404,7 @@ address {
   }
 
 .secondary-text {
-	padding: 2em 2em;
+	padding: .5em .5em;
 	text-align: left;
 }
 
@@ -411,11 +412,16 @@ address {
   float: none;
   width: 100%;
   padding: 0 0;
+  font-size: .9em;
 }
 
 #footer-right {
   float: none;
   width: 100%;
+}
+
+address {
+	font-size: .9em;
 }
 }
 
