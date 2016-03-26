@@ -208,7 +208,7 @@ button:hover {
 .hero-services{
 	display: block;
 	height: 18em;
-	background: url("../images/haiti_pic.jpg");
+	background: url("../images/services2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -227,21 +227,46 @@ button:hover {
 	display: block;
 	height: 18em;
 	background-color: #eeeeee;
-	background: url("../images/haiti_pic.jpg");
+	background: url("../images/about_us8.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
 }
 
-.secondary-header {
-	padding: 3em;
-	color: white;
-	text-indent: 1em
+#secondary-header-services{
+	padding: 5.5em 0em 5.5em 0em;
+	/*text-align: center;*/
+	/*color: white;*/
+	text-indent: 1em;
 }
 
-.secondary-header h1 {
-	color: white;
+#secondary-header-services h1 {
+/*color: rgba(0, 0, 0, .7);*/
 }
+
+
+#secondary-header-industries {
+	padding: 2em 4em 2em 10em;
+	/*text-align: center;*/
+	/*color: white;*/
+	text-indent: 1em;
+}
+
+#secondary-header-industries h1 {
+color: rgba(0, 0, 0, .7);
+}
+
+#secondary-header-about {
+	padding: 2em 4em 2em 10em;
+	/*text-align: center;*/
+	/*color: white;*/
+	text-indent: 1em;
+}
+
+#secondary-header-about h1 {
+color: rgba(0, 0, 0, .7);
+}
+
 
 .secondary-text {
 	/*border: 1px black solid;*/
