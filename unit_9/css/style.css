@@ -208,7 +208,7 @@ button:hover {
 .hero-services{
 	display: block;
 	height: 18em;
-	background: url("../images/services2.jpg");
+	background: url("../images/services2.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -217,7 +217,7 @@ button:hover {
 .hero-industries{
 	display: block;
 	height: 18em;
-	background: url("../images/haiti_pic.jpg");
+	background: url("../images/haiti_pic.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -227,7 +227,7 @@ button:hover {
 	display: block;
 	height: 18em;
 	background-color: #eeeeee;
-	background: url("../images/about_us8.jpg");
+	background: url("../images/about_us8.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 1em;
@@ -281,7 +281,7 @@ color: rgba(0, 0, 0, .7);
 	/*background: gray;*/
 	/*color: #fff;what does the overflow do*/
 	overflow: auto;
-	margin: 1.5em 0;
+	margin: 1.5em 1.5em;
 }
 
 .location-map {
@@ -292,7 +292,7 @@ color: rgba(0, 0, 0, .7);
 	background-size: cover;
 	background-repeat: no-repeat;
 	float: left;
-	margin: 1.5em 0;
+	margin: 1.5em 0em;
 }
 
 #location-map img {
